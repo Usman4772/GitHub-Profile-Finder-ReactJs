@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+.input-wrapper{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border-bottom: 1px solid black;
+}
+.input-wrapper input{
+    width:30rem ;
+    height: 3.5rem;
+    border: none;
+    border: 1px solid black;
+    outline: none;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    font-size: 1.6rem;
+}
+.input-wrapper button{
+    padding:1rem 1.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    padding: 0 10rem;
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+.user_name_profile_image{
+    width: 100vw;
+    height: 5rem;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+.userImage{
+    width: 5rem;
+    height: 5rem;
+}
+.userImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.user-name{
+    font-size: 2rem;
+}
+.details-wrapper{
+    gap: 1.5rem;
+    flex-direction: column;
+}
+.details{
+    gap: 1rem;
+}
+.details div{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.details div span{
+    font-weight: 500;
+}
+.visit-btn{
+    width: 10rem;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: .4rem;
+    padding: .7rem 1.5rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+
+}
+.message,.notfound{
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: red;
+}
+
